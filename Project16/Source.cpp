@@ -16,7 +16,7 @@ int auksorn(char a[])
 int main()
 {
 	char a[100];
-	scanf("%s",&a);
-	printf("%d", auksorn(a));
+	scanf("%s",a);
+	printf("auksorn pim lek = %d", auksorn(a));
 	return 0;
 }
